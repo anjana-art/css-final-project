@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+<style>
+    body{
+        background-image: linear-gradient(to right,rgb(87, 8, 87), rgb(204, 156, 204));
+    }
+    h1{
+        font-family: Roboto;
+        color: white;
+        font-size: 3rem;
+    }
+
+    ul li{
+        display: inline;
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    img{
+        height: 450px;
+        width: 450px;
+        margin-top: 100px;
+    }
+
+
+   
+    .float{
+        margin-top: 200px
+    }
+
+    .flex2{
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+   
+    .flex1{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+    }
+
+    .button{
+        color: rgb(194, 40, 40);
+        font-size: 16px;
+        border: 1px solid rgb(190, 46, 46);
+        border-radius: 10px ;
+        background-color: rgb(124, 58, 124);
+        padding: 3px 20px 3px 20px;
+    }
+
+    .button:hover{
+        color: white;
+        background-color: rgb(182, 37, 146);
+    }
+</style>
+</head>
+<body>
+ <div>
+    <ul>
+        <li>ABOUT</li>
+        <li>OUR COURSES</li>
+        <li>HOW IT WORKS</li>
+        <li>CONTACT US</li>
+    </ul>
+ </div>   
+
+
+
+<div class="flex1">
+    <div>
+        <img src="image/Illustration.png" alt="image here">
+    </div>
+    <div>
+        <h1 class="float">DEVELOP AND BUILD MY FIRST ROBOT</h1>
+        <div class="flex2">
+            <div class="button">All courses</div>
+            <div class="button">Show me more</div>
+        </div>
+    </div>
+</div>    
+
+
+
+</body>
+</html>
